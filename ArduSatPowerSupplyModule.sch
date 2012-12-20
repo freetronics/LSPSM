@@ -9137,6 +9137,10 @@ Source: RS Component / Phycomp</description>
 <part name="P+4" library="SparkFun" deviceset="3.3V" device=""/>
 <part name="GND1" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND20" library="freetronics" deviceset="GND" device=""/>
+<part name="R17" library="freetronics-master-v1.1" deviceset="RESISTOR" device="0603" value="4K7 0603"/>
+<part name="U$3" library="SparkFun" deviceset="5V" device=""/>
+<part name="R18" library="freetronics-master-v1.1" deviceset="RESISTOR" device="0603" value="4K7 0603"/>
+<part name="U$14" library="SparkFun" deviceset="5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9539,6 +9543,16 @@ A2 = D11</text>
 </instance>
 <instance part="GND1" gate="1" x="25.4" y="312.42"/>
 <instance part="GND20" gate="1" x="40.64" y="254"/>
+<instance part="R17" gate="G$1" x="121.92" y="203.2" smashed="yes" rot="R90">
+<attribute name="NAME" x="124.968" y="203.4286" size="1.778" layer="95"/>
+<attribute name="VALUE" x="124.968" y="200.152" size="1.778" layer="96"/>
+</instance>
+<instance part="U$3" gate="G$1" x="121.92" y="213.36"/>
+<instance part="R18" gate="G$1" x="121.92" y="228.6" smashed="yes" rot="R90">
+<attribute name="NAME" x="124.968" y="228.8286" size="1.778" layer="95"/>
+<attribute name="VALUE" x="124.968" y="225.552" size="1.778" layer="96"/>
+</instance>
+<instance part="U$14" gate="G$1" x="121.92" y="238.76"/>
 </instances>
 <busses>
 </busses>
@@ -10149,6 +10163,18 @@ A2 = D11</text>
 <wire x1="220.98" y1="231.14" x2="238.76" y2="231.14" width="0.1524" layer="91"/>
 <label x="223.52" y="231.14" size="1.778" layer="95"/>
 <pinref part="U$18" gate="G$1" pin="5V"/>
+</segment>
+<segment>
+<pinref part="R18" gate="G$1" pin="2"/>
+<pinref part="U$14" gate="G$1" pin="5V"/>
+<wire x1="121.92" y1="233.68" x2="121.92" y2="238.76" width="0.1524" layer="91"/>
+<label x="121.92" y="236.22" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R17" gate="G$1" pin="2"/>
+<pinref part="U$3" gate="G$1" pin="5V"/>
+<wire x1="121.92" y1="208.28" x2="121.92" y2="213.36" width="0.1524" layer="91"/>
+<label x="121.92" y="210.82" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VCC_SYS" class="0">
@@ -10901,6 +10927,14 @@ A2 = D11</text>
 <wire x1="124.46" y1="22.86" x2="139.7" y2="22.86" width="0.1524" layer="91"/>
 <label x="127" y="22.86" size="1.778" layer="95"/>
 </segment>
+<segment>
+<wire x1="142.24" y1="220.98" x2="121.92" y2="220.98" width="0.1524" layer="91"/>
+<pinref part="R18" gate="G$1" pin="1"/>
+<wire x1="121.92" y1="220.98" x2="116.84" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="223.52" x2="121.92" y2="220.98" width="0.1524" layer="91"/>
+<junction x="121.92" y="220.98"/>
+<label x="124.46" y="220.98" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="MGMNT_SCL" class="0">
 <segment>
@@ -10912,6 +10946,14 @@ A2 = D11</text>
 <pinref part="H1" gate="G$1" pin="43"/>
 <wire x1="124.46" y1="20.32" x2="139.7" y2="20.32" width="0.1524" layer="91"/>
 <label x="127" y="20.32" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="142.24" y1="195.58" x2="121.92" y2="195.58" width="0.1524" layer="91"/>
+<pinref part="R17" gate="G$1" pin="1"/>
+<wire x1="121.92" y1="195.58" x2="116.84" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="198.12" x2="121.92" y2="195.58" width="0.1524" layer="91"/>
+<junction x="121.92" y="195.58"/>
+<label x="124.46" y="195.58" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$2" class="0">
