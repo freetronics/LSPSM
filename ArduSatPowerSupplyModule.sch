@@ -9137,7 +9137,6 @@ Source: RS Component / Phycomp</description>
 <part name="P+4" library="SparkFun" deviceset="3.3V" device=""/>
 <part name="GND1" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND20" library="freetronics" deviceset="GND" device=""/>
-<part name="JP10" library="freetronics-master-v1" deviceset="M02" device="PTH"/>
 </parts>
 <sheets>
 <sheet>
@@ -9540,7 +9539,6 @@ A2 = D11</text>
 </instance>
 <instance part="GND1" gate="1" x="25.4" y="312.42"/>
 <instance part="GND20" gate="1" x="40.64" y="254"/>
-<instance part="JP10" gate="G$1" x="180.34" y="464.82" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -9683,20 +9681,6 @@ A2 = D11</text>
 <pinref part="H1" gate="G$1" pin="39"/>
 <wire x1="124.46" y1="25.4" x2="139.7" y2="25.4" width="0.1524" layer="91"/>
 <label x="127" y="25.4" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="H1L41" class="0">
-<segment>
-<pinref part="H1" gate="G$1" pin="41"/>
-<wire x1="124.46" y1="22.86" x2="139.7" y2="22.86" width="0.1524" layer="91"/>
-<label x="127" y="22.86" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="H1L43" class="0">
-<segment>
-<pinref part="H1" gate="G$1" pin="43"/>
-<wire x1="124.46" y1="20.32" x2="139.7" y2="20.32" width="0.1524" layer="91"/>
-<label x="127" y="20.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="H1L45" class="0">
@@ -10913,9 +10897,9 @@ A2 = D11</text>
 <label x="218.44" y="137.16" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP10" gate="G$1" pin="2"/>
-<wire x1="172.72" y1="462.28" x2="152.4" y2="462.28" width="0.1524" layer="91"/>
-<label x="154.94" y="462.28" size="1.778" layer="95"/>
+<pinref part="H1" gate="G$1" pin="41"/>
+<wire x1="124.46" y1="22.86" x2="139.7" y2="22.86" width="0.1524" layer="91"/>
+<label x="127" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MGMNT_SCL" class="0">
@@ -10925,9 +10909,9 @@ A2 = D11</text>
 <label x="218.44" y="160.02" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP10" gate="G$1" pin="1"/>
-<wire x1="172.72" y1="464.82" x2="152.4" y2="464.82" width="0.1524" layer="91"/>
-<label x="154.94" y="464.82" size="1.778" layer="95"/>
+<pinref part="H1" gate="G$1" pin="43"/>
+<wire x1="124.46" y1="20.32" x2="139.7" y2="20.32" width="0.1524" layer="91"/>
+<label x="127" y="20.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$2" class="0">

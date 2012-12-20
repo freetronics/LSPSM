@@ -19,7 +19,7 @@ UsedLibrary="/Users/jon/Dropbox/EagleExtras/lbr/freetronics.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="2630 373 3229 772"
+Loc="2615 380 3214 779"
 State=2
 Number=0
 
