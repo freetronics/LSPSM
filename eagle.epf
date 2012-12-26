@@ -7,6 +7,8 @@ Desktop="Desktop"
 
 [Globals]
 AutoSaveProject=1
+UsedLibrary="/Users/jon/Dropbox/EagleExtras/lbr/atmel-2005.lbr"
+UsedLibrary="/Users/jon/Dropbox/EagleExtras/lbr/atmel.lbr"
 UsedLibrary="/Users/jon/Dropbox/EagleExtras/lbr/freetronics-2.lbr"
 UsedLibrary="/Users/jon/Dropbox/EagleExtras/lbr/freetronics-jon-old.lbr"
 UsedLibrary="/Users/jon/Dropbox/EagleExtras/lbr/freetronics-jon.1.lbr"
@@ -16,10 +18,14 @@ UsedLibrary="/Users/jon/Dropbox/EagleExtras/lbr/freetronics-master-v1.1.lbr"
 UsedLibrary="/Users/jon/Dropbox/EagleExtras/lbr/freetronics-master-v1.lbr"
 UsedLibrary="/Users/jon/Dropbox/EagleExtras/lbr/freetronics-original.lbr"
 UsedLibrary="/Users/jon/Dropbox/EagleExtras/lbr/freetronics.lbr"
+UsedLibrary="/Users/jon/Dropbox/EagleExtras/lbr/switch-alps.lbr"
+UsedLibrary="/Users/jon/Dropbox/EagleExtras/lbr/switch-misc.lbr"
+UsedLibrary="/Users/jon/Dropbox/EagleExtras/lbr/switch-omron.lbr"
+UsedLibrary="/Users/jon/Dropbox/EagleExtras/lbr/switch.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="2615 380 3214 779"
+Loc="111 47 906 697"
 State=2
 Number=0
 
