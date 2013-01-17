@@ -1,6 +1,6 @@
 Freetronics ArduSat Power Supply Module
 =======================================
-Copyright 2012 Freetronics Pty Ltd  
+Copyright 2013 Freetronics Pty Ltd  
 Freetronics site:  www.freetronics.com  
 Freetronics email: info@freetronics.com  
 
