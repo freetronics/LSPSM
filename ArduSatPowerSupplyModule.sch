@@ -10774,6 +10774,8 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="FID3" library="freetronics-original" deviceset="FIDUCIAL" device="1X2.5"/>
 <part name="SJ4" library="freetronics-jon" deviceset="SJC" device="N"/>
 <part name="SJ6" library="freetronics-jon" deviceset="SJC" device="N"/>
+<part name="U$3" library="SparkFun" deviceset="5V" device=""/>
+<part name="U$6" library="SparkFun" deviceset="5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -14044,6 +14046,8 @@ keep battery close to charged</text>
 <instance part="SJ15" gate="G$1" x="124.46" y="43.18"/>
 <instance part="SJ4" gate="G$1" x="220.98" y="147.32"/>
 <instance part="SJ6" gate="G$1" x="220.98" y="83.82"/>
+<instance part="U$3" gate="G$1" x="63.5" y="152.4"/>
+<instance part="U$6" gate="G$1" x="63.5" y="88.9"/>
 </instances>
 <busses>
 </busses>
@@ -14249,6 +14253,24 @@ keep battery close to charged</text>
 <pinref part="C23" gate="G$1" pin="2"/>
 <junction x="187.96" y="160.02"/>
 </segment>
+<segment>
+<pinref part="IC6" gate="G$1" pin="VCC"/>
+<wire x1="60.96" y1="144.78" x2="63.5" y2="144.78" width="0.1524" layer="91"/>
+<pinref part="C21" gate="G$1" pin="1"/>
+<wire x1="63.5" y1="134.62" x2="63.5" y2="144.78" width="0.1524" layer="91"/>
+<pinref part="U$3" gate="G$1" pin="5V"/>
+<wire x1="63.5" y1="152.4" x2="63.5" y2="144.78" width="0.1524" layer="91"/>
+<junction x="63.5" y="144.78"/>
+</segment>
+<segment>
+<pinref part="IC8" gate="G$1" pin="VCC"/>
+<wire x1="60.96" y1="81.28" x2="63.5" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="C7" gate="G$1" pin="1"/>
+<wire x1="63.5" y1="71.12" x2="63.5" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="U$6" gate="G$1" pin="5V"/>
+<wire x1="63.5" y1="88.9" x2="63.5" y2="81.28" width="0.1524" layer="91"/>
+<junction x="63.5" y="81.28"/>
+</segment>
 </net>
 <net name="SDA" class="0">
 <segment>
@@ -14314,17 +14336,9 @@ keep battery close to charged</text>
 <wire x1="35.56" y1="76.2" x2="30.48" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="R39" gate="G$1" pin="2"/>
 <wire x1="30.48" y1="76.2" x2="30.48" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="96.52" x2="63.5" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="96.52" x2="71.12" y2="96.52" width="0.1524" layer="91"/>
 <junction x="30.48" y="96.52"/>
-<pinref part="IC8" gate="G$1" pin="VCC"/>
-<wire x1="60.96" y1="81.28" x2="63.5" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="C7" gate="G$1" pin="1"/>
-<wire x1="63.5" y1="71.12" x2="63.5" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="81.28" x2="63.5" y2="96.52" width="0.1524" layer="91"/>
-<junction x="63.5" y="81.28"/>
-<wire x1="63.5" y1="96.52" x2="71.12" y2="96.52" width="0.1524" layer="91"/>
-<junction x="63.5" y="96.52"/>
-<label x="55.88" y="96.52" size="1.778" layer="95"/>
+<label x="45.72" y="96.52" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="C16" gate="G$1" pin="1"/>
@@ -14458,20 +14472,12 @@ keep battery close to charged</text>
 </segment>
 <segment>
 <pinref part="R33" gate="G$1" pin="2"/>
-<wire x1="30.48" y1="160.02" x2="63.5" y2="160.02" width="0.1524" layer="91"/>
-<pinref part="C21" gate="G$1" pin="1"/>
-<wire x1="63.5" y1="134.62" x2="63.5" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="IC6" gate="G$1" pin="VCC"/>
-<wire x1="63.5" y1="144.78" x2="63.5" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="144.78" x2="63.5" y2="144.78" width="0.1524" layer="91"/>
-<junction x="63.5" y="144.78"/>
+<wire x1="30.48" y1="160.02" x2="71.12" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="IC6" gate="G$1" pin="RS-"/>
 <wire x1="35.56" y1="139.7" x2="30.48" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="139.7" x2="30.48" y2="160.02" width="0.1524" layer="91"/>
 <junction x="30.48" y="160.02"/>
-<wire x1="63.5" y1="160.02" x2="71.12" y2="160.02" width="0.1524" layer="91"/>
-<junction x="63.5" y="160.02"/>
-<label x="55.88" y="160.02" size="1.778" layer="95"/>
+<label x="45.72" y="160.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SCL" class="0">
