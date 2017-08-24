@@ -1,8 +1,8 @@
-Freetronics ArduSat Power Supply Module
-=======================================
+Freetronics LibreSat Power Supply Module
+========================================
 Copyright 2013 Freetronics Pty Ltd  
-Freetronics site:  www.freetronics.com  
-Freetronics email: info@freetronics.com  
+Freetronics site:  www.freetronics.com.au  
+Freetronics email: info@freetronics.com.au  
 
 FIXME
 
@@ -12,7 +12,7 @@ Features:
 
 More information is available at:
 
-  http://www.freetronics.com/aspsm
+  http://www.freetronics.com.au/lspsm
 
 
 INSTALLATION
@@ -21,7 +21,7 @@ The design is saved as an EAGLE project. EAGLE PCB design software is
 available from www.cadsoftusa.com free for non-commercial use. To use
 this project download it and place the directory containing these files
 into the "eagle" directory on your computer. Then open EAGLE and
-navigate to Projects -> eagle -> ArduSatPowerSupplyModule.
+navigate to the project.
 
 
 DISTRIBUTION
