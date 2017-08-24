@@ -10653,7 +10653,7 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <text x="7.62" y="14.478" size="1.778" layer="94">SKU: LSPSM</text>
 <text x="7.366" y="9.398" size="1.778" layer="94">(C)2013 Freetronics Pty Ltd: www.freetronics.com</text>
 <text x="7.366" y="6.35" size="1.778" layer="94">Licensed under the TAPR Open Hardware License: www.tapr.org/ohl</text>
-<text x="68.326" y="14.478" size="1.778" layer="94">www.freetronics.com/lspsm</text>
+<text x="68.326" y="14.478" size="1.778" layer="94">www.libresat.org/lspsm</text>
 <frame x1="5.08" y1="12.7" x2="109.22" y2="25.4" columns="0" rows="0" layer="94" border-left="no" border-top="no" border-right="no" border-bottom="no"/>
 <frame x1="5.08" y1="12.7" x2="35.56" y2="17.78" columns="8" rows="5" layer="94"/>
 <frame x1="35.56" y1="12.7" x2="66.04" y2="17.78" columns="8" rows="5" layer="94"/>
